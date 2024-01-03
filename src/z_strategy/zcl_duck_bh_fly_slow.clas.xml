@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_DUCK_BH_FLY_SLOW</CLSNAME>
-    <LANGU>D</LANGU>
-    <DESCRIPT>fast fly behavior</DESCRIPT>
+    <LANGU>E</LANGU>
+    <DESCRIPT>slow fly behavior</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

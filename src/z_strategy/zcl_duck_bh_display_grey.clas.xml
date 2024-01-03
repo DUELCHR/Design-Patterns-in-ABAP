@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_DUCK_BH_DISPLAY_GREY</CLSNAME>
-    <LANGU>D</LANGU>
-    <DESCRIPT>Display Behavior</DESCRIPT>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Grey Display Behavior</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

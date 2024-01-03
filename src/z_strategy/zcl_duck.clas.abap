@@ -5,17 +5,17 @@ CLASS zcl_duck DEFINITION
 
   PUBLIC SECTION.
     METHODS constructor
-      IMPORTING io_fly_behavior     TYPE REF TO yif_duck_behavior_fly
-                io_quack_behavior   TYPE REF TO yif_duck_behavior_quack
-                io_display_behavior TYPE REF TO yif_duck_behavior_display.
+      IMPORTING io_fly_behavior     TYPE REF TO zif_duck_behavior_fly
+                io_quack_behavior   TYPE REF TO zif_duck_behavior_quack
+                io_display_behavior TYPE REF TO zif_duck_behavior_display.
 
     methods execute_behaviors RETURNING VALUE(rv_result) type string.
 
   PROTECTED SECTION.
   PRIVATE SECTION.
-    DATA mo_fly_behavior TYPE REF TO yif_duck_behavior_fly.
-    DATA mo_quack_behavior TYPE REF TO yif_duck_behavior_quack.
-    DATA mo_display_behavior TYPE REF TO yif_duck_behavior_display.
+    DATA mo_fly_behavior TYPE REF TO zif_duck_behavior_fly.
+    DATA mo_quack_behavior TYPE REF TO zif_duck_behavior_quack.
+    DATA mo_display_behavior TYPE REF TO zif_duck_behavior_display.
 ENDCLASS.
 
 

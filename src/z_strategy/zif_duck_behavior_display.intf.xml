@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOINTERF>
-    <CLSNAME>YIF_DUCK_BEHAVIOR_DISPLAY</CLSNAME>
-    <LANGU>D</LANGU>
-    <DESCRIPT>Fly-Behavior for Duck</DESCRIPT>
+    <CLSNAME>ZIF_DUCK_BEHAVIOR_DISPLAY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Display-Behavior for Duck</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>

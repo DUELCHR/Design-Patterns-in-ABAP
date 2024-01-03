@@ -5,7 +5,7 @@ CLASS zcl_duck_bh_quack_loud DEFINITION
 
   PUBLIC SECTION.
 
-    INTERFACES yif_duck_behavior_quack .
+    INTERFACES zif_duck_behavior_quack .
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -13,7 +13,7 @@ ENDCLASS.
 
 
 CLASS zcl_duck_bh_quack_loud IMPLEMENTATION.
-  METHOD yif_duck_behavior_quack~quack.
+  METHOD zif_duck_behavior_quack~quack.
     rv_result = 'I quack loud'.
   ENDMETHOD.
 

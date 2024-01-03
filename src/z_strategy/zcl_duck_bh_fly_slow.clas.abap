@@ -1,20 +1,21 @@
-CLASS zcl_duck_bh_fly_slow DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_DUCK_BH_FLY_SLOW definition
+  public
+  final
+  create public .
 
-  PUBLIC SECTION.
+public section.
 
-    INTERFACES yif_duck_behavior_fly .
+  interfaces ZIF_DUCK_BEHAVIOR_FLY .
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS zcl_duck_bh_fly_slow IMPLEMENTATION.
-  METHOD yif_duck_behavior_fly~fly.
+CLASS ZCL_DUCK_BH_FLY_SLOW IMPLEMENTATION.
+
+
+  METHOD zif_duck_behavior_fly~fly.
     rv_result = 'I fly slow'.
   ENDMETHOD.
-
 ENDCLASS.

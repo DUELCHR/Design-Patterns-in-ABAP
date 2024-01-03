@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_DECORATOR_RUN</CLSNAME>
-    <LANGU>D</LANGU>
-    <DESCRIPT>Decorator Run Klasse</DESCRIPT>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Decorator Run Class</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
