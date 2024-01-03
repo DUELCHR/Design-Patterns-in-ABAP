@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>YCL_DUCK_BH_FLY_SLOW</CLSNAME>
+    <CLSNAME>ZCL_DUCK_BH_FLY_SLOW</CLSNAME>
     <LANGU>D</LANGU>
     <DESCRIPT>fast fly behavior</DESCRIPT>
     <STATE>1</STATE>

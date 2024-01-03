@@ -1,4 +1,4 @@
-CLASS ycl_duck_bh_fly_fast DEFINITION
+CLASS zcl_duck_bh_fly_fast DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS ycl_duck_bh_fly_fast IMPLEMENTATION.
+CLASS zcl_duck_bh_fly_fast IMPLEMENTATION.
   METHOD yif_duck_behavior_fly~fly.
     rv_result = 'I fly fast'.
   ENDMETHOD.

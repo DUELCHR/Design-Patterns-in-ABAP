@@ -1,4 +1,4 @@
-CLASS ycl_duck_bh_display_grey DEFINITION
+CLASS zcl_duck_bh_display_grey DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS ycl_duck_bh_display_grey IMPLEMENTATION.
+CLASS zcl_duck_bh_display_grey IMPLEMENTATION.
   METHOD yif_duck_behavior_display~display.
     rv_result = 'I am grey'.
   ENDMETHOD.

@@ -1,4 +1,4 @@
-CLASS ycl_duck_bh_quack_loud DEFINITION
+CLASS zcl_duck_bh_quack_loud DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS ycl_duck_bh_quack_loud IMPLEMENTATION.
+CLASS zcl_duck_bh_quack_loud IMPLEMENTATION.
   METHOD yif_duck_behavior_quack~quack.
     rv_result = 'I quack loud'.
   ENDMETHOD.

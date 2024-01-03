@@ -1,4 +1,4 @@
-CLASS ycl_duck_cd DEFINITION
+CLASS zcl_duck DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -20,7 +20,7 @@ ENDCLASS.
 
 
 
-CLASS ycl_duck_cd IMPLEMENTATION.
+CLASS zcl_duck IMPLEMENTATION.
   METHOD constructor.
     mo_fly_behavior = io_fly_behavior.
     mo_quack_behavior = io_quack_behavior.
