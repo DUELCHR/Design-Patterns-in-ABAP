@@ -18,10 +18,10 @@ CLASS zcl_observer_with_events_run IMPLEMENTATION.
     " create new weather station
     mo_weather_station = NEW zcl_weather_station( ).
 
-    " create Phone Display with reference to the weather station
+    " create Phone Display without reference to the weather station
     DATA(lo_phone_display) = NEW zcl_phone( io_out = out ).
 
-    " create TV Display with reference to the weather station
+    " create TV Display without reference to the weather station
     DATA(lo_tv_display) = NEW zcl_tv( io_out = out ).
     " register Phone Display to weather station
     SET HANDLER lo_phone_display->zif_display~display_using_events FOR mo_weather_station ACTIVATION abap_true.

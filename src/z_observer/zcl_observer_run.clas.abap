@@ -35,7 +35,7 @@ CLASS zcl_observer_run IMPLEMENTATION.
     mo_weather_station->zif_observable~notify( ).
 
     " unregister phone as observer
-    mo_weather_station->zif_observable~remove_observer( io_observer = lo_phone_display ).
+    mo_weather_station->zif_observable~remove_observer( lo_phone_display ).
 
     " simulate that something has changed and inform all observers.
     mo_weather_station->zif_observable~notify( ).
