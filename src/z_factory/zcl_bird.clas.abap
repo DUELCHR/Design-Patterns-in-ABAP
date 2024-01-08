@@ -1,0 +1,19 @@
+CLASS zcl_bird DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  INTERFACES zif_animal.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_bird IMPLEMENTATION.
+  METHOD zif_animal~get_kind.
+    rv_result = 'Bird'.
+  ENDMETHOD.
+
+ENDCLASS.
