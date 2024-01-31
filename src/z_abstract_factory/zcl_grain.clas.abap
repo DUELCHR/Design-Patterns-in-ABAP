@@ -1,0 +1,21 @@
+CLASS zcl_grain DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES zif_food .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_grain IMPLEMENTATION.
+
+
+  METHOD zif_food~get_food_type.
+  rv_result = 'Grain'.
+  ENDMETHOD.
+ENDCLASS.

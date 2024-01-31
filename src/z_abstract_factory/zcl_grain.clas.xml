@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_DUCK_BH_FLY_FAST</CLSNAME>
-    <LANGU>D</LANGU>
-    <DESCRIPT>fast fly behavior</DESCRIPT>
+    <CLSNAME>ZCL_GRAIN</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Meat class</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

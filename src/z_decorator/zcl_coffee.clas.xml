@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_COFFEE</CLSNAME>
-    <LANGU>E</LANGU>
-    <DESCRIPT>Concrete Beverage (Coffee)</DESCRIPT>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Beverage</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

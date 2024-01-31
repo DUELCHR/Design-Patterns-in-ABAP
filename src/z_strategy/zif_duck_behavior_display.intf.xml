@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOINTERF>
     <CLSNAME>ZIF_DUCK_BEHAVIOR_DISPLAY</CLSNAME>
-    <LANGU>E</LANGU>
-    <DESCRIPT>Display-Behavior for Duck</DESCRIPT>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Fly-Behavior for Duck</DESCRIPT>
     <EXPOSURE>2</EXPOSURE>
     <STATE>1</STATE>
     <UNICODE>X</UNICODE>

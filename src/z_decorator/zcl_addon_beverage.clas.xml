@@ -4,8 +4,8 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_ADDON_BEVERAGE</CLSNAME>
-    <LANGU>E</LANGU>
-    <DESCRIPT>Addon Beverage</DESCRIPT>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Beverage</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
